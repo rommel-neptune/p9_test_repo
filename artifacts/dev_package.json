@@ -6,11 +6,9 @@
 		"remote": "https://github.com/rommel-neptune/p9_test_repo"
 	},
 	"name": "p9_test_repo",
-	"description": null,
-	"ver": "24.07.31.1310",
+	"description": "Description is provided",
+	"ver": "24.08.06.1131",
 	"enableCICD": true,
-	"excludeTemplateFiles": false,
-	"roles": [],
 	"apps": [],
 	"api": [],
 	"odataSource": [],
