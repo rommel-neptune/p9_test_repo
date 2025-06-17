@@ -7,9 +7,19 @@
 	},
 	"name": "p9_test_repo",
 	"description": "Description is provided",
-	"ver": "24.08.06.1131",
+	"ver": "25.06.17.1255",
 	"enableCICD": true,
-	"apps": [],
+	"apps": [
+		{
+			"id": "9397f71a-e60a-49da-b6c2-a76826ccd20b",
+			"application": "planet9_launchpad_standard_qa",
+			"title": "",
+			"description": "Planet 9 Launchpad ",
+			"package": {
+				"id": "766514eb-dc55-496a-b474-e08e6270809f"
+			}
+		}
+	],
 	"api": [],
 	"odataSource": [],
 	"odataMock": [],
