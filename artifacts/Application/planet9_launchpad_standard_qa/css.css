@@ -1125,6 +1125,12 @@ html[dir="rtl"] .nepTreeItemAction .sapMSTIIcon {
         border-radius: 0;
         margin: auto;
     }
+
+    #topContainerRight {
+        z-index: 1000;
+        right: 0;
+        position: absolute;
+    }
 }
 
 .nepLaunchpadOverflowContainer {
@@ -1799,10 +1805,16 @@ html.sap-desktop.nepThemeDark ::-webkit-scrollbar-thumb:hover {
 .nepThemeLight .nepTopMenu {
     background: var(--white);
 }
+.nepThemeDark .nepTopMenu {
+    background: (--white);
+}
 
 .nepThemeDark .nepTopMenu {
     background: var(--darkThemePrimaryBackground);
     border-radius: 0;
+}
+.nepThemeDark .nepTopMenu #topContainerRight {
+    background: (--darkThemePrimaryBackground);
 }
 
 .nepThemeLight .nepNavBarContent {
